@@ -3,28 +3,27 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
-import Particle from '../components/Particle'
-import pdf from "../assets/Nikhil.pdf"
+import Particle from "../components/Particle";
+import pdf from "../assets/Nikhil.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://github.com/Mr-Nikhil-jha/portfolio/blob/master/src/assets/Nikhil.pdff`
-
+const resumeLink = `https://raw.githubusercontent.com/Mr-Nikhil-jha/portfolio/e867b825eca1f196f43074b8a1b7da735fa8e4e2/src/assets/Nikhil.pdf
+    `;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-    
     setWidth(window.innerWidth);
   }, []);
 
   return (
     <div>
-      <Container  fluid className="resume-section">
+      <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
@@ -57,7 +56,7 @@ const Resume = () => {
         </Row>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

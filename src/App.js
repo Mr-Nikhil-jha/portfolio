@@ -13,7 +13,7 @@ import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 
@@ -46,7 +46,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

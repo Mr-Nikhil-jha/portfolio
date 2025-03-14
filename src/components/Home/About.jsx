@@ -37,12 +37,7 @@ const About = () => {
                                 <b className="yellow"> React.js</b>
                             </i>
                             <br />
-                            <br />I am also interested in building new
-                            <i>
-                                <b className="yellow"> Web Technologies and Products, </b>
-                                as well as exploring areas related to
-                                <b className="yellow"> Artificial Intelligence.</b>
-                            </i>
+                           
                             <br />
                         </p>
                     </Col>
