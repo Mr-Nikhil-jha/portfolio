@@ -42,7 +42,7 @@ const Projects = () => {
                             title="Todo - list"
                             description="A sleek and intuitive **Todo List** app built with **React.js** to help you organize tasks efficiently. It allows users to add, edit, delete, and mark tasks as complete, ensuring better productivity with a smooth and responsive UI. ✅📝"
                             ghLink="https://github.com/Mr-Nikhil-jha/todo"
-                            demoLink="task-add-list.vercel.app"
+                            demoLink="https://task-add-list.vercel.app/"
                         />
                     </Col>
 
