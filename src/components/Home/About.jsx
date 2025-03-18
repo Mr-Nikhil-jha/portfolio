@@ -37,7 +37,6 @@ const About = () => {
                                 <b className="yellow"> React.js</b>
                             </i>
                             <br />
-                           
                             <br />
                         </p>
                     </Col>
@@ -55,7 +54,7 @@ const About = () => {
                         </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">
-                                <a href="https://github.com/" target="_blank" rel="noreferrer" className="icon-colour  home-social-icons" aria-label="github">
+                                <a href="https://github.com/Mr-Nikhil-jha/" target="_blank" rel="noreferrer" className="icon-colour  home-social-icons" aria-label="github">
                                     <AiFillGithub />
                                 </a>
                             </li>
