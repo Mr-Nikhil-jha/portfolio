@@ -85,8 +85,8 @@ const Projects = () => {
                             isBlog={false}
                             title="Weather"
                             description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-                            ghLink="https://github.com/Mr-Nikhil-jha/Weather"
-                            demoLink="weather-inforeact.vercel.app"
+                            ghLink="https://github.com/Mr-Nikhil-jha/react-weather"
+                            demoLink="https://locateweather.vercel.app/"
                         />
                     </Col>
                 </Row>
